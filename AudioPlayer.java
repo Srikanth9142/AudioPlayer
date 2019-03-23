@@ -13,7 +13,7 @@ public class AudioPlayer extends Applet implements ActionListener {
         setBackground(Color.CYAN);
         setForeground(Color.RED);
 
-        au = getAudioClip(getDocumentBase(), "donu.wav");
+        au = getAudioClip(getDocumentBase(), "donu.wav"); //change this "donu.wav" to your music.wav
         b1 = new Button("Play");
         b2 = new Button("Stop");
         // g.drawString("Click the buttons", 100, 50);
